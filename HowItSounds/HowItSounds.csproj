@@ -148,7 +148,11 @@
     <Content Include="Assets\Logos\HowItSounds.targetsize-256_altform-unplated.png" />
     <Content Include="Assets\Logos\HowItSounds.targetsize-48.png" />
     <Content Include="Assets\Logos\HowItSounds.targetsize-48_altform-unplated.png" />
+    <Content Include="Assets\Logos\HowItSoundsSplashScreen.scale-100.png" />
+    <Content Include="Assets\Logos\HowItSoundsSplashScreen.scale-125.png" />
+    <Content Include="Assets\Logos\HowItSoundsSplashScreen.scale-150.png" />
     <Content Include="Assets\Logos\HowItSoundsSplashScreen.scale-200.png" />
+    <Content Include="Assets\Logos\HowItSoundsSplashScreen.scale-400.png" />
     <Content Include="Assets\Logos\HowItSoundsSquare150x150Logo.scale-100.png" />
     <Content Include="Assets\Logos\HowItSoundsSquare44x44Logo.scale-100.png" />
     <Content Include="Assets\Logos\HowItSoundsSquare44x44Logo.scale-125.png" />

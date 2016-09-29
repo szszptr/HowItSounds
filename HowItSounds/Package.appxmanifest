@@ -22,7 +22,7 @@
           </uap:ShowNameOnTiles>
         </uap:DefaultTile>
         <uap:LockScreen Notification="badge" BadgeLogo="Assets\Logos\HowItSounds.BadgeLogo.png" />
-        <uap:SplashScreen Image="Assets\Logos\HowItSoundsSplashScreen.png" />
+        <uap:SplashScreen Image="Assets\Logos\HowItSoundsSplashScreen.png" BackgroundColor="#4c5ba5" />
       </uap:VisualElements>
     </Application>
   </Applications>
