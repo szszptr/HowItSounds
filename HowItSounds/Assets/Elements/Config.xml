@@ -16,12 +16,12 @@
     <name>Train</name>
     <image>train.jpg</image>
     <sound>train.wav</sound>
-    <category>1</category>
+    <category>2</category>
   </element>
   <element>
     <name>Police</name>
     <image>police.jpg</image>
-    <sound>police.wav</sound>
-    <category>1</category>
+    <sound>police.mp3</sound>
+    <category>2</category>
   </element>
 </elements>
