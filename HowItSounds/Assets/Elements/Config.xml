@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+  <elements>
+   <element>
+    <name>Car</name>
+    <image>car.jpg</image>
+    <sound>car.wav</sound>
+    <category>1</category>
+  </element>
+  <element>
+    <name>Motor</name>
+    <image>motor.jpg</image>
+    <sound>motor.wav</sound>
+    <category>1</category>
+  </element>
+  <element>
+    <name>Train</name>
+    <image>train.jpg</image>
+    <sound>train.wav</sound>
+    <category>1</category>
+  </element>
+  <element>
+    <name>Police</name>
+    <image>police.jpg</image>
+    <sound>police.wav</sound>
+    <category>1</category>
+  </element>
+</elements>
