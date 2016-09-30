@@ -16,8 +16,11 @@
     <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{A5A43C5B-DE2A-4C0C-9213-0A381AF9435A};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <PackageCertificateKeyFile>HowItSounds_TemporaryKey.pfx</PackageCertificateKeyFile>
-    <PackageCertificateThumbprint>5371550CBE4806D822276D791075F8D3854B686E</PackageCertificateThumbprint>
+    <PackageCertificateKeyFile>HowItSounds_StoreKey.pfx</PackageCertificateKeyFile>
+    <PackageCertificateThumbprint>4EDB65FA1D6ACE6A2DD7EF4AFDB7498CC5E8241D</PackageCertificateThumbprint>
+    <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
+    <AppxBundle>Always</AppxBundle>
+    <AppxBundlePlatforms>x86|x64|arm</AppxBundlePlatforms>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
     <DebugSymbols>true</DebugSymbols>
@@ -90,8 +93,13 @@
   </PropertyGroup>
   <ItemGroup>
     <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
-    <PRIResource Include="Assets\String\en-US\Resources.resw" />
-    <PRIResource Include="Assets\String\hu-HU\Resources.resw" />
+    <PRIResource Include="Assets\String\en-US\Resources.resw">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </PRIResource>
+    <PRIResource Include="Assets\String\hu-HU\Resources.resw">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </PRIResource>
+    <None Include="HowItSounds_StoreKey.pfx" />
     <None Include="HowItSounds_TemporaryKey.pfx" />
     <None Include="project.json" />
   </ItemGroup>
@@ -99,7 +107,9 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Assets\Models\Element.cs" />
+    <Compile Include="Assets\Models\Element.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -111,79 +121,221 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Assets\Elements\car.jpg" />
-    <Content Include="Assets\Elements\car.mp3" />
+    <Content Include="Assets\Elements\car.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Elements\car.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Assets\Elements\Config.xml">
       <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Assets\Elements\crow.jpg" />
-    <Content Include="Assets\Elements\crow.mp3" />
-    <Content Include="Assets\Elements\dog.jpg" />
-    <Content Include="Assets\Elements\dog.mp3" />
-    <Content Include="Assets\Elements\horse.jpg" />
-    <Content Include="Assets\Elements\horse.mp3" />
-    <Content Include="Assets\Elements\motor.jpg" />
-    <Content Include="Assets\Elements\motor.mp3" />
-    <Content Include="Assets\Elements\police.jpg" />
-    <Content Include="Assets\Elements\police.mp3" />
-    <Content Include="Assets\Elements\train.jpg" />
-    <Content Include="Assets\Elements\train.mp3" />
-    <Content Include="Assets\Logos\HowItSounds.BadgeLogo.scale-100.png" />
-    <Content Include="Assets\Logos\HowItSounds.BadgeLogo.scale-125.png" />
-    <Content Include="Assets\Logos\HowItSounds.BadgeLogo.scale-150.png" />
-    <Content Include="Assets\Logos\HowItSounds.BadgeLogo.scale-200.png" />
-    <Content Include="Assets\Logos\HowItSounds.BadgeLogo.scale-400.png" />
-    <Content Include="Assets\Logos\HowItSounds.StoreLogo.scale-100.png" />
-    <Content Include="Assets\Logos\HowItSounds.StoreLogo.scale-125.png" />
-    <Content Include="Assets\Logos\HowItSounds.StoreLogo.scale-150.png" />
-    <Content Include="Assets\Logos\HowItSounds.StoreLogo.scale-200.png" />
-    <Content Include="Assets\Logos\HowItSounds.StoreLogo.scale-400.png" />
-    <Content Include="Assets\Logos\HowItSounds.targetsize-16.png" />
-    <Content Include="Assets\Logos\HowItSounds.targetsize-16_altform-unplated.png" />
-    <Content Include="Assets\Logos\HowItSounds.targetsize-24.png" />
-    <Content Include="Assets\Logos\HowItSounds.targetsize-24_altform-unplated.png" />
-    <Content Include="Assets\Logos\HowItSounds.targetsize-256.png" />
-    <Content Include="Assets\Logos\HowItSounds.targetsize-256_altform-unplated.png" />
-    <Content Include="Assets\Logos\HowItSounds.targetsize-48.png" />
-    <Content Include="Assets\Logos\HowItSounds.targetsize-48_altform-unplated.png" />
-    <Content Include="Assets\Logos\HowItSoundsSplashScreen.scale-100.png" />
-    <Content Include="Assets\Logos\HowItSoundsSplashScreen.scale-125.png" />
-    <Content Include="Assets\Logos\HowItSoundsSplashScreen.scale-150.png" />
-    <Content Include="Assets\Logos\HowItSoundsSplashScreen.scale-200.png" />
-    <Content Include="Assets\Logos\HowItSoundsSplashScreen.scale-400.png" />
-    <Content Include="Assets\Logos\HowItSoundsSquare150x150Logo.scale-100.png" />
-    <Content Include="Assets\Logos\HowItSoundsSquare150x150Logo.scale-125.png" />
-    <Content Include="Assets\Logos\HowItSoundsSquare150x150Logo.scale-150.png" />
-    <Content Include="Assets\Logos\HowItSoundsSquare150x150Logo.scale-200.png" />
-    <Content Include="Assets\Logos\HowItSoundsSquare150x150Logo.scale-400.png" />
-    <Content Include="Assets\Logos\HowItSoundsSquare310x150Logo.scale-100.png" />
-    <Content Include="Assets\Logos\HowItSoundsSquare310x150Logo.scale-125.png" />
-    <Content Include="Assets\Logos\HowItSoundsSquare310x150Logo.scale-150.png" />
-    <Content Include="Assets\Logos\HowItSoundsSquare310x150Logo.scale-200.png" />
-    <Content Include="Assets\Logos\HowItSoundsSquare310x150Logo.scale-400.png" />
-    <Content Include="Assets\Logos\HowItSoundsSquare310x310Logo.scale-100.png" />
-    <Content Include="Assets\Logos\HowItSoundsSquare310x310Logo.scale-125.png" />
-    <Content Include="Assets\Logos\HowItSoundsSquare310x310Logo.scale-150.png" />
-    <Content Include="Assets\Logos\HowItSoundsSquare310x310Logo.scale-200.png" />
-    <Content Include="Assets\Logos\HowItSoundsSquare310x310Logo.scale-400.png" />
-    <Content Include="Assets\Logos\HowItSoundsSquare44x44Logo.scale-100.png" />
-    <Content Include="Assets\Logos\HowItSoundsSquare44x44Logo.scale-125.png" />
-    <Content Include="Assets\Logos\HowItSoundsSquare44x44Logo.scale-150.png" />
-    <Content Include="Assets\Logos\HowItSoundsSquare44x44Logo.scale-200.png" />
-    <Content Include="Assets\Logos\HowItSoundsSquare44x44Logo.scale-400.png" />
-    <Content Include="Assets\Logos\HowItSoundsSquare44x44Logo.targetsize-16.png" />
-    <Content Include="Assets\Logos\HowItSoundsSquare44x44Logo.targetsize-16_altform-unplated.png" />
-    <Content Include="Assets\Logos\HowItSoundsSquare44x44Logo.targetsize-24.png" />
-    <Content Include="Assets\Logos\HowItSoundsSquare44x44Logo.targetsize-24_altform-unplated.png" />
-    <Content Include="Assets\Logos\HowItSoundsSquare44x44Logo.targetsize-256.png" />
-    <Content Include="Assets\Logos\HowItSoundsSquare44x44Logo.targetsize-256_altform-unplated.png" />
-    <Content Include="Assets\Logos\HowItSoundsSquare44x44Logo.targetsize-48.png" />
-    <Content Include="Assets\Logos\HowItSoundsSquare44x44Logo.targetsize-48_altform-unplated.png" />
-    <Content Include="Assets\Logos\HowItSoundsSquare71x71Logo.scale-100.png" />
-    <Content Include="Assets\Logos\HowItSoundsSquare71x71Logo.scale-125.png" />
-    <Content Include="Assets\Logos\HowItSoundsSquare71x71Logo.scale-150.png" />
-    <Content Include="Assets\Logos\HowItSoundsSquare71x71Logo.scale-200.png" />
-    <Content Include="Assets\Logos\HowItSoundsSquare71x71Logo.scale-400.png" />
+    <Content Include="Assets\Elements\crow.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Elements\crow.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Elements\dog.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Elements\dog.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Elements\horse.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Elements\horse.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Elements\motor.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Elements\motor.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Elements\police.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Elements\police.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Elements\train.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Elements\train.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logos\HowItSounds.BadgeLogo.scale-100.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logos\HowItSounds.BadgeLogo.scale-125.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logos\HowItSounds.BadgeLogo.scale-150.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logos\HowItSounds.BadgeLogo.scale-200.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logos\HowItSounds.BadgeLogo.scale-400.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logos\HowItSounds.StoreLogo.scale-100.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logos\HowItSounds.StoreLogo.scale-125.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logos\HowItSounds.StoreLogo.scale-150.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logos\HowItSounds.StoreLogo.scale-200.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logos\HowItSounds.StoreLogo.scale-400.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logos\HowItSounds.targetsize-16.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logos\HowItSounds.targetsize-16_altform-unplated.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logos\HowItSounds.targetsize-24.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logos\HowItSounds.targetsize-24_altform-unplated.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logos\HowItSounds.targetsize-256.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logos\HowItSounds.targetsize-256_altform-unplated.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logos\HowItSounds.targetsize-48.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logos\HowItSounds.targetsize-48_altform-unplated.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logos\HowItSoundsSplashScreen.scale-100.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logos\HowItSoundsSplashScreen.scale-125.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logos\HowItSoundsSplashScreen.scale-150.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logos\HowItSoundsSplashScreen.scale-200.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logos\HowItSoundsSplashScreen.scale-400.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logos\HowItSoundsSquare150x150Logo.scale-100.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logos\HowItSoundsSquare150x150Logo.scale-125.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logos\HowItSoundsSquare150x150Logo.scale-150.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logos\HowItSoundsSquare150x150Logo.scale-200.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logos\HowItSoundsSquare150x150Logo.scale-400.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logos\HowItSoundsSquare310x150Logo.scale-100.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logos\HowItSoundsSquare310x150Logo.scale-125.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logos\HowItSoundsSquare310x150Logo.scale-150.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logos\HowItSoundsSquare310x150Logo.scale-200.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logos\HowItSoundsSquare310x150Logo.scale-400.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logos\HowItSoundsSquare310x310Logo.scale-100.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logos\HowItSoundsSquare310x310Logo.scale-125.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logos\HowItSoundsSquare310x310Logo.scale-150.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logos\HowItSoundsSquare310x310Logo.scale-200.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logos\HowItSoundsSquare310x310Logo.scale-400.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logos\HowItSoundsSquare44x44Logo.scale-100.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logos\HowItSoundsSquare44x44Logo.scale-125.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logos\HowItSoundsSquare44x44Logo.scale-150.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logos\HowItSoundsSquare44x44Logo.scale-200.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logos\HowItSoundsSquare44x44Logo.scale-400.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logos\HowItSoundsSquare44x44Logo.targetsize-16.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logos\HowItSoundsSquare44x44Logo.targetsize-16_altform-unplated.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logos\HowItSoundsSquare44x44Logo.targetsize-24.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logos\HowItSoundsSquare44x44Logo.targetsize-24_altform-unplated.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logos\HowItSoundsSquare44x44Logo.targetsize-256.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logos\HowItSoundsSquare44x44Logo.targetsize-256_altform-unplated.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logos\HowItSoundsSquare44x44Logo.targetsize-48.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logos\HowItSoundsSquare44x44Logo.targetsize-48_altform-unplated.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logos\HowItSoundsSquare71x71Logo.scale-100.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logos\HowItSoundsSquare71x71Logo.scale-125.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logos\HowItSoundsSquare71x71Logo.scale-150.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logos\HowItSoundsSquare71x71Logo.scale-200.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logos\HowItSoundsSquare71x71Logo.scale-400.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Package.StoreAssociation.xml" />
     <Content Include="Properties\Default.rd.xml" />
   </ItemGroup>
   <ItemGroup>
