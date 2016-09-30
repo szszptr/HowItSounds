@@ -167,21 +167,6 @@
     <Content Include="Assets\Elements\train.mp3">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Assets\Logos\HowItSounds.BadgeLogo.scale-100.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Assets\Logos\HowItSounds.BadgeLogo.scale-125.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Assets\Logos\HowItSounds.BadgeLogo.scale-150.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Assets\Logos\HowItSounds.BadgeLogo.scale-200.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Assets\Logos\HowItSounds.BadgeLogo.scale-400.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="Assets\Logos\HowItSounds.StoreLogo.scale-100.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

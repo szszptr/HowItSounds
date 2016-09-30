@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" IgnorableNamespaces="uap mp">
-  <Identity Name="31319SzP.HowItSounds" Publisher="CN=5E2648B0-6814-414C-BE07-B8A59A695E76" Version="1.1.0.0" />
+  <Identity Name="31319SzP.HowItSounds" Publisher="CN=5E2648B0-6814-414C-BE07-B8A59A695E76" Version="1.1.4.0" />
   <mp:PhoneIdentity PhoneProductId="beeb574d-aca1-4f08-b00a-9a4e95e721c4" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>HowItSounds</DisplayName>
@@ -23,7 +23,6 @@
             <uap:ShowOn Tile="square310x310Logo" />
           </uap:ShowNameOnTiles>
         </uap:DefaultTile>
-        <uap:LockScreen Notification="badge" BadgeLogo="Assets\Logos\HowItSounds.BadgeLogo.png" />
         <uap:SplashScreen Image="Assets\Logos\HowItSoundsSplashScreen.png" BackgroundColor="#4c5ba5" />
       </uap:VisualElements>
     </Application>
