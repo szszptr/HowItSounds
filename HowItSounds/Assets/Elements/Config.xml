@@ -3,25 +3,37 @@
    <element>
     <name>Car</name>
     <image>car.jpg</image>
-    <sound>car.wav</sound>
+    <sound>car.mp3</sound>
     <category>1</category>
   </element>
   <element>
     <name>Motor</name>
     <image>motor.jpg</image>
-    <sound>motor.wav</sound>
+    <sound>motor.mp3</sound>
     <category>1</category>
   </element>
   <element>
     <name>Train</name>
     <image>train.jpg</image>
-    <sound>train.wav</sound>
-    <category>2</category>
+    <sound>train.mp3</sound>
+    <category>1</category>
   </element>
   <element>
     <name>Police</name>
     <image>police.jpg</image>
     <sound>police.mp3</sound>
+    <category>1</category>
+  </element>
+   <element>
+    <name>Horse</name>
+    <image>horse.jpg</image>
+    <sound>horse.mp3</sound>
+    <category>2</category>
+  </element>
+  <element>
+    <name>Crow</name>
+    <image>crow.jpg</image>
+    <sound>crow.mp3</sound>
     <category>2</category>
   </element>
 </elements>

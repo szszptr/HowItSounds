@@ -121,7 +121,7 @@
     <value>Konfigurációs hiba!</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Valami</value>
+    <value>Egy Univerzális Windows Platform Alkalmazás az alkalmazásba épített hangok lejátszására. Nyílt forráskódú, ingyenes és reklámmentes.</value>
   </data>
   <data name="DisplayName" xml:space="preserve">
     <value>Hogy hangzik?</value>
@@ -145,16 +145,16 @@
     <value>Megosztás</value>
   </data>
   <data name="BottomAppBarButtonShare.Tag" xml:space="preserve">
-    <value>UWP használatban</value>
+    <value>Épp a "Hogy hangzik?" Univerzális Windows Platform Alkalmazást használom! Próbáld ki te is!</value>
   </data>
   <data name="BottomAppBarMenuFlyoutCategory1.Text" xml:space="preserve">
-    <value>Kategória 1</value>
+    <value>Járművek</value>
   </data>
   <data name="BottomAppBarMenuFlyoutCategory2.Text" xml:space="preserve">
-    <value>Kategória 2</value>
+    <value>Állatok</value>
   </data>
   <data name="BottomAppBarMenuFlyoutCategory3.Text" xml:space="preserve">
-    <value>Vonat</value>
+    <value>Kategória 3</value>
   </data>
   <data name="TopAppBarButtonAll.Label" xml:space="preserve">
     <value>Mind</value>
@@ -166,15 +166,15 @@
     <value>Megosztás</value>
   </data>
   <data name="TopAppBarButtonShare.Tag" xml:space="preserve">
-    <value>UWP használatban</value>
+    <value>Épp a "Hogy hangzik?" Univerzális Windows Platform Alkalmazást használom! Próbáld ki te is!</value>
   </data>
   <data name="TopAppBarMenuFlyoutCategory1.Text" xml:space="preserve">
-    <value>Kategória 1</value>
+    <value>Járművek</value>
   </data>
   <data name="TopAppBarMenuFlyoutCategory2.Text" xml:space="preserve">
-    <value>Kategória 2</value>
+    <value>Állatok</value>
   </data>
   <data name="TopAppBarMenuFlyoutCategory3.Text" xml:space="preserve">
-    <value>Vonat</value>
+    <value>Kategória 3</value>
   </data>
 </root>

@@ -41,7 +41,6 @@ namespace HowItSounds
 
         private void FillList()
         {
-            
             //Populate a list with the given configuration.
             ElementsList = new List<Element>(ElementFactory.GetElements(AssetElements, configFile));
 
@@ -71,7 +70,7 @@ namespace HowItSounds
             }
             catch (System.IO.FileNotFoundException) { SetTitleTextBlock(fileErrorMessage); }
         }
-
+ 
         private void SetTitleTextBlock(string text)
         {
             TopTitleTextBlock.Text = text;
@@ -138,7 +137,7 @@ namespace HowItSounds
                     }
             }
 
-            ////panel.ItemWidth = panel.ItemHeight = e.NewSize.Width / _gridColumnNumber;
+            //panel.ItemWidth = panel.ItemHeight = e.NewSize.Width / _gridColumnNumber;
             _panel.ItemWidth = e.NewSize.Width / _gridColumnNumber;
         }
     }

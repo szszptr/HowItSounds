@@ -103,7 +103,7 @@
         </VisualStateManager.VisualStateGroups>
 
         <Grid.RowDefinitions>
-            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
         </Grid.RowDefinitions>
 
         <MediaElement x:Name="idMedia" AutoPlay="True" Grid.Row="0"/>
@@ -113,8 +113,8 @@
                       IsItemClickEnabled="True" 
                       ItemClick="MyGridView_ItemClick" 
                       SizeChanged="MyGridView_SizeChanged" 
-                      ScrollViewer.VerticalScrollBarVisibility="Visible"
-                      ScrollViewer.VerticalScrollMode="Enabled"
+                      ScrollViewer.VerticalScrollBarVisibility="Auto"
+                      ScrollViewer.VerticalScrollMode="Auto"
                       ScrollViewer.HorizontalScrollMode="Disabled"
                       SelectionMode="Single">
             <GridView.Resources>
@@ -128,7 +128,7 @@
             <GridView.ItemTemplate>
                 <DataTemplate x:DataType="data:Element">
                     <RelativePanel x:Name="idPanel">
-                        <Image Source="{x:Bind CoverImage}"  MaxWidth="300" />
+                        <Image Source="{x:Bind CoverImage}"/>
                     </RelativePanel>
                 </DataTemplate>
             </GridView.ItemTemplate>

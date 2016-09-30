@@ -121,7 +121,7 @@
     <value>Configuration error!</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Smthng</value>
+    <value>Universal Windows Platform Application for playing bulit-in sounds effects. Open source, free, advertisement free.</value>
   </data>
   <data name="DisplayName" xml:space="preserve">
     <value>How it sounds?</value>
@@ -145,16 +145,16 @@
     <value>Share</value>
   </data>
   <data name="BottomAppBarButtonShare.Tag" xml:space="preserve">
-    <value>UWP App in using</value>
+    <value>I'm using the "How it sounds?" Universal Windows Application right now! You should give it a try too!</value>
   </data>
   <data name="BottomAppBarMenuFlyoutCategory1.Text" xml:space="preserve">
-    <value>Category 1</value>
+    <value>Vehicles</value>
   </data>
   <data name="BottomAppBarMenuFlyoutCategory2.Text" xml:space="preserve">
-    <value>Category 2</value>
+    <value>Animals</value>
   </data>
   <data name="BottomAppBarMenuFlyoutCategory3.Text" xml:space="preserve">
-    <value>Train</value>
+    <value>Category 3</value>
   </data>
   <data name="TopAppBarButtonAll.Label" xml:space="preserve">
     <value>All</value>
@@ -166,15 +166,15 @@
     <value>Share</value>
   </data>
   <data name="TopAppBarButtonShare.Tag" xml:space="preserve">
-    <value>UWP App in using</value>
+    <value>I'm using the "How it sounds?" Universal Windows Application right now! You should give it a try too!</value>
   </data>
   <data name="TopAppBarMenuFlyoutCategory1.Text" xml:space="preserve">
-    <value>Category 1</value>
+    <value>Vehicles</value>
   </data>
   <data name="TopAppBarMenuFlyoutCategory2.Text" xml:space="preserve">
-    <value>Category 2</value>
+    <value>Animals</value>
   </data>
   <data name="TopAppBarMenuFlyoutCategory3.Text" xml:space="preserve">
-    <value>Train</value>
+    <value>Category 3</value>
   </data>
 </root>

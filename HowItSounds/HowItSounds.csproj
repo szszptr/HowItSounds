@@ -112,24 +112,22 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\Elements\car.jpg" />
-    <Content Include="Assets\Elements\car.wav">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
+    <Content Include="Assets\Elements\car.mp3" />
     <Content Include="Assets\Elements\Config.xml">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="Assets\Elements\crow.jpg" />
+    <Content Include="Assets\Elements\crow.mp3" />
     <Content Include="Assets\Elements\dog.jpg" />
     <Content Include="Assets\Elements\dog.mp3" />
+    <Content Include="Assets\Elements\horse.jpg" />
+    <Content Include="Assets\Elements\horse.mp3" />
     <Content Include="Assets\Elements\motor.jpg" />
-    <Content Include="Assets\Elements\motor.wav">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
+    <Content Include="Assets\Elements\motor.mp3" />
     <Content Include="Assets\Elements\police.jpg" />
     <Content Include="Assets\Elements\police.mp3" />
     <Content Include="Assets\Elements\train.jpg" />
-    <Content Include="Assets\Elements\train.wav">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
+    <Content Include="Assets\Elements\train.mp3" />
     <Content Include="Assets\Logos\HowItSounds.BadgeLogo.scale-100.png" />
     <Content Include="Assets\Logos\HowItSounds.BadgeLogo.scale-125.png" />
     <Content Include="Assets\Logos\HowItSounds.BadgeLogo.scale-150.png" />
@@ -154,6 +152,20 @@
     <Content Include="Assets\Logos\HowItSoundsSplashScreen.scale-200.png" />
     <Content Include="Assets\Logos\HowItSoundsSplashScreen.scale-400.png" />
     <Content Include="Assets\Logos\HowItSoundsSquare150x150Logo.scale-100.png" />
+    <Content Include="Assets\Logos\HowItSoundsSquare150x150Logo.scale-125.png" />
+    <Content Include="Assets\Logos\HowItSoundsSquare150x150Logo.scale-150.png" />
+    <Content Include="Assets\Logos\HowItSoundsSquare150x150Logo.scale-200.png" />
+    <Content Include="Assets\Logos\HowItSoundsSquare150x150Logo.scale-400.png" />
+    <Content Include="Assets\Logos\HowItSoundsSquare310x150Logo.scale-100.png" />
+    <Content Include="Assets\Logos\HowItSoundsSquare310x150Logo.scale-125.png" />
+    <Content Include="Assets\Logos\HowItSoundsSquare310x150Logo.scale-150.png" />
+    <Content Include="Assets\Logos\HowItSoundsSquare310x150Logo.scale-200.png" />
+    <Content Include="Assets\Logos\HowItSoundsSquare310x150Logo.scale-400.png" />
+    <Content Include="Assets\Logos\HowItSoundsSquare310x310Logo.scale-100.png" />
+    <Content Include="Assets\Logos\HowItSoundsSquare310x310Logo.scale-125.png" />
+    <Content Include="Assets\Logos\HowItSoundsSquare310x310Logo.scale-150.png" />
+    <Content Include="Assets\Logos\HowItSoundsSquare310x310Logo.scale-200.png" />
+    <Content Include="Assets\Logos\HowItSoundsSquare310x310Logo.scale-400.png" />
     <Content Include="Assets\Logos\HowItSoundsSquare44x44Logo.scale-100.png" />
     <Content Include="Assets\Logos\HowItSoundsSquare44x44Logo.scale-125.png" />
     <Content Include="Assets\Logos\HowItSoundsSquare44x44Logo.scale-150.png" />
@@ -167,19 +179,11 @@
     <Content Include="Assets\Logos\HowItSoundsSquare44x44Logo.targetsize-256_altform-unplated.png" />
     <Content Include="Assets\Logos\HowItSoundsSquare44x44Logo.targetsize-48.png" />
     <Content Include="Assets\Logos\HowItSoundsSquare44x44Logo.targetsize-48_altform-unplated.png" />
-    <Content Include="Assets\Square44x44Logo.scale-100.png" />
-    <Content Include="Assets\Square44x44Logo.scale-125.png" />
-    <Content Include="Assets\Square44x44Logo.scale-150.png" />
-    <Content Include="Assets\Square44x44Logo.scale-200.png" />
-    <Content Include="Assets\Square44x44Logo.scale-400.png" />
-    <Content Include="Assets\Square44x44Logo.targetsize-16.png" />
-    <Content Include="Assets\Square44x44Logo.targetsize-16_altform-unplated.png" />
-    <Content Include="Assets\Square44x44Logo.targetsize-24.png" />
-    <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png" />
-    <Content Include="Assets\Square44x44Logo.targetsize-256.png" />
-    <Content Include="Assets\Square44x44Logo.targetsize-256_altform-unplated.png" />
-    <Content Include="Assets\Square44x44Logo.targetsize-48.png" />
-    <Content Include="Assets\Square44x44Logo.targetsize-48_altform-unplated.png" />
+    <Content Include="Assets\Logos\HowItSoundsSquare71x71Logo.scale-100.png" />
+    <Content Include="Assets\Logos\HowItSoundsSquare71x71Logo.scale-125.png" />
+    <Content Include="Assets\Logos\HowItSoundsSquare71x71Logo.scale-150.png" />
+    <Content Include="Assets\Logos\HowItSoundsSquare71x71Logo.scale-200.png" />
+    <Content Include="Assets\Logos\HowItSoundsSquare71x71Logo.scale-400.png" />
     <Content Include="Properties\Default.rd.xml" />
   </ItemGroup>
   <ItemGroup>
