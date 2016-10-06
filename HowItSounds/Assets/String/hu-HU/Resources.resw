@@ -154,7 +154,7 @@
     <value>Állatok</value>
   </data>
   <data name="BottomAppBarMenuFlyoutCategory3.Text" xml:space="preserve">
-    <value>Kategória 3</value>
+    <value>Hangszerek</value>
   </data>
   <data name="TopAppBarButtonAll.Label" xml:space="preserve">
     <value>Mind</value>
@@ -175,6 +175,6 @@
     <value>Állatok</value>
   </data>
   <data name="TopAppBarMenuFlyoutCategory3.Text" xml:space="preserve">
-    <value>Kategória 3</value>
+    <value>Hangszerek</value>
   </data>
 </root>

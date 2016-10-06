@@ -1,1 +1,1 @@
-C:\Users\Peter\Documents\Visual Studio 2015\Projects\HowItSounds\HowItSounds\AppPackages\HowItSounds_1.1.4.0\HowItSounds_1.1.4.0_x86_x64_arm.appxbundle
+C:\Users\Peter\Documents\Visual Studio 2015\Projects\HowItSounds\HowItSounds\AppPackages\HowItSounds_1.1.7.0\HowItSounds_1.1.7.0_x86_x64_arm.appxbundle

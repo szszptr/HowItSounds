@@ -36,4 +36,22 @@
     <sound>crow.mp3</sound>
     <category>2</category>
   </element>
+   <element>
+    <name>Guitar</name>
+    <image>guitar.jpg</image>
+    <sound>guitar.mp3</sound>
+    <category>3</category>
+  </element>
+  <element>
+    <name>Drums</name>
+    <image>drums.jpg</image>
+    <sound>drums.mp3</sound>
+    <category>3</category>
+  </element>
+  <element>
+    <name>Keyboard</name>
+    <image>szinti.jpg</image>
+    <sound>szinti.mp3</sound>
+    <category>3</category>
+  </element>
 </elements>

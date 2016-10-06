@@ -32,6 +32,7 @@
     <UseVSHostingProcess>false</UseVSHostingProcess>
     <ErrorReport>prompt</ErrorReport>
     <Prefer32Bit>true</Prefer32Bit>
+    <Optimize>true</Optimize>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
     <OutputPath>bin\x86\Release\</OutputPath>
@@ -143,6 +144,18 @@
     <Content Include="Assets\Elements\dog.mp3">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Assets\Elements\drums.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Elements\drums.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Elements\guitar.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Elements\guitar.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Assets\Elements\horse.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -161,6 +174,12 @@
     <Content Include="Assets\Elements\police.mp3">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Assets\Elements\szinti.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Elements\szinti.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Assets\Elements\train.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -168,12 +187,6 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Assets\Logos\HowItSounds.StoreLogo.scale-100.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Assets\Logos\HowItSounds.StoreLogo.scale-125.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Assets\Logos\HowItSounds.StoreLogo.scale-150.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Assets\Logos\HowItSounds.StoreLogo.scale-200.png">
@@ -224,12 +237,6 @@
     <Content Include="Assets\Logos\HowItSoundsSquare150x150Logo.scale-100.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Assets\Logos\HowItSoundsSquare150x150Logo.scale-125.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Assets\Logos\HowItSoundsSquare150x150Logo.scale-150.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="Assets\Logos\HowItSoundsSquare150x150Logo.scale-200.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -254,12 +261,6 @@
     <Content Include="Assets\Logos\HowItSoundsSquare310x310Logo.scale-100.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Assets\Logos\HowItSoundsSquare310x310Logo.scale-125.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Assets\Logos\HowItSoundsSquare310x310Logo.scale-150.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="Assets\Logos\HowItSoundsSquare310x310Logo.scale-200.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -267,12 +268,6 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Assets\Logos\HowItSoundsSquare44x44Logo.scale-100.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Assets\Logos\HowItSoundsSquare44x44Logo.scale-125.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Assets\Logos\HowItSoundsSquare44x44Logo.scale-150.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Assets\Logos\HowItSoundsSquare44x44Logo.scale-200.png">
@@ -305,13 +300,8 @@
     <Content Include="Assets\Logos\HowItSoundsSquare44x44Logo.targetsize-48_altform-unplated.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <None Include="Package.StoreAssociation.xml" />
     <Content Include="Assets\Logos\HowItSoundsSquare71x71Logo.scale-100.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Assets\Logos\HowItSoundsSquare71x71Logo.scale-125.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Assets\Logos\HowItSoundsSquare71x71Logo.scale-150.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Assets\Logos\HowItSoundsSquare71x71Logo.scale-200.png">
@@ -320,7 +310,6 @@
     <Content Include="Assets\Logos\HowItSoundsSquare71x71Logo.scale-400.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <None Include="Package.StoreAssociation.xml" />
     <Content Include="Properties\Default.rd.xml" />
   </ItemGroup>
   <ItemGroup>

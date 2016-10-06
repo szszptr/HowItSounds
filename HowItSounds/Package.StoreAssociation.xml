@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <StoreAssociation xmlns="http://schemas.microsoft.com/appx/2010/storeassociation">
   <Publisher>CN=5E2648B0-6814-414C-BE07-B8A59A695E76</Publisher>
-  <PublisherDisplayName>SzP</PublisherDisplayName>
+  <PublisherDisplayName>Péter Szász</PublisherDisplayName>
   <GeneratePackageHash>http://www.w3.org/2001/04/xmlenc#sha256</GeneratePackageHash>
   <SupportedLocales>
     <Language Code="af" InMinimumRequirementSet="true" />

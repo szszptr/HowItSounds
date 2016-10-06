@@ -154,7 +154,7 @@
     <value>Animals</value>
   </data>
   <data name="BottomAppBarMenuFlyoutCategory3.Text" xml:space="preserve">
-    <value>Category 3</value>
+    <value>Music instruments</value>
   </data>
   <data name="TopAppBarButtonAll.Label" xml:space="preserve">
     <value>All</value>
@@ -175,6 +175,6 @@
     <value>Animals</value>
   </data>
   <data name="TopAppBarMenuFlyoutCategory3.Text" xml:space="preserve">
-    <value>Category 3</value>
+    <value>Music instruments</value>
   </data>
 </root>
